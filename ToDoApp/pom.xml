@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>ToDoApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>ToDoApp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -55,6 +56,11 @@
 		    <groupId>org.webjars</groupId>
 		    <artifactId>bootstrap</artifactId>
 		    <version>5.3.3</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.apache.tomcat.embed</groupId>
+		  <artifactId>tomcat-embed-jasper</artifactId>
+		  <scope>provided</scope>
 		</dependency>
 
 	</dependencies>
